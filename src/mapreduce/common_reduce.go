@@ -1,10 +1,17 @@
 package mapreduce
 
+import (
+	"encoding/json"
+	"log"
+	"os"
+	"sort"
+)
+
 func doReduce(
 	jobName string, // the name of the whole MapReduce job
 	reduceTask int, // which reduce task this is
 	outFile string, // write the output here
-	nMap int, // the number of map tasks that were run ("M" in the paper)
+	nMap int,       // the number of map tasks that were run ("M" in the paper)
 	reduceF func(key string, values []string) string,
 ) {
 	//
@@ -44,4 +51,43 @@ func doReduce(
 	//
 	// Your code here (Part I).
 	//
+
+	log.Printf("doReduce: job name = %s, output file = %s, map task id = %d, nMap = %d\n",
+		jobName, outFile, reduceTask, nMap)
+
+	keyValue := make(map[string]([]string))
+	for i := 0; i < nMap; i++ {
+		filename := reduceName(jobName, i, reduceTask)
+		f, err := os.Open(filename)
+		if err != nil {
+			log.Fatal("doReduce: read file: ", filename, "error!", err)
+		}
+		defer f.Close()
+
+		decoder := json.NewDecoder(f)
+		var kv KeyValue
+		for ; decoder.More(); {
+			err := decoder.Decode(&kv)
+			if err != nil {
+				log.Fatal("Json decode failed, ", err)
+			}
+			keyValue[kv.Key] = append(keyValue[kv.Key], kv.Value)
+		}
+	}
+
+	keys := make([]string, 0, len(keyValue))
+	for k := range keyValue {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	outF, err := os.Create(outFile)
+	if err != nil {
+		log.Fatal("Unable to create file: ", outFile)
+	}
+	defer outF.Close()
+	encoder := json.NewEncoder(outF)
+	for _, k := range keys {
+		encoder.Encode(KeyValue{k, reduceF(k, keyValue[k])})
+	}
 }
