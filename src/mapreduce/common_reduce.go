@@ -69,11 +69,12 @@ func doReduce(
 		for ; decoder.More(); {
 			err := decoder.Decode(&kv)
 			if err != nil {
-				log.Fatal("Json decode failed, ", err)
+				log.Fatal("doReduce: Json decode failed, ", err)
 			}
 			keyValue[kv.Key] = append(keyValue[kv.Key], kv.Value)
 		}
 	}
+	log.Println("doReduce: read files success.")
 
 	keys := make([]string, 0, len(keyValue))
 	for k := range keyValue {
@@ -83,11 +84,12 @@ func doReduce(
 
 	outF, err := os.Create(outFile)
 	if err != nil {
-		log.Fatal("Unable to create file: ", outFile)
+		log.Fatal("doReduce: create file", outFile, "error!", err)
 	}
 	defer outF.Close()
 	encoder := json.NewEncoder(outF)
 	for _, k := range keys {
 		encoder.Encode(KeyValue{k, reduceF(k, keyValue[k])})
 	}
+	log.Println("doReduce: write file success.")
 }

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapreduce/common_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapreduce/common_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapreduce/common_reduce.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapreduce/common_reduce.go" afterDir="false" />
-    </list>
+    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="188">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
               <folding>
                 <element signature="e#19#49#0" expanded="true" />
               </folding>
@@ -194,9 +190,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 13h 44m 55s.xml">
-      <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 06m 10s.xml">
       <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -224,6 +217,9 @@
     <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 42m 34s.xml">
       <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 44m 09s.xml">
+      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
@@ -234,11 +230,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="188">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
           <folding>
             <element signature="e#19#49#0" expanded="true" />
           </folding>
