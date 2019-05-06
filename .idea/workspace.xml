@@ -218,10 +218,10 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build wc.go" />
-      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/kvraft" />
-      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/mapreduce" />
       <item itemvalue="Go Test.TestParallelBasic in 6.824-Spring-2018/src/mapreduce" />
       <item itemvalue="Go Test.TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" />
+      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/kvraft" />
+      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/mapreduce" />
     </list>
     <recent_temporary>
       <list>

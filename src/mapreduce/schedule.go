@@ -49,6 +49,9 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 			worker := <-registerChan
 			for !call(worker, "Worker.DoTask", doTaskArgs, nil) {
 			}
+
+			// NOTICE! in order to avoid being blocked, we must use a goroutine to push the worker back to that channel
+			// 这块必须用一个go协程来写registerChan，不然就会卡住
 			go func() {
 				registerChan <- worker
 			}()
