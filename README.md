@@ -11,5 +11,5 @@
 - [x] Lab1 Part III: Distributing MapReduce tasks (2019/5/6)
 - [x] Lab1 Part IV: Handling worker failures (2019/5/6)
 - [x] Lab1 Part V: Inverted index generation (2019/5/6)
-- [] Preparation: Do [Online Go tutorial](https://tour.golang.org/welcome/1) [(FAQ)](https://pdos.csail.mit.edu/6.824/papers/tour-faq.txt)
+- [] Preparation: Do [Online Go tutorial](https://tour.go-zh.org/list) [(FAQ)](https://pdos.csail.mit.edu/6.824/papers/tour-faq.txt)
 - []  LEC 2: [RPC and Threads](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt), [Crawler](https://pdos.csail.mit.edu/6.824/notes/crawler.go), [K/V](https://pdos.csail.mit.edu/6.824/notes/kv.go)
