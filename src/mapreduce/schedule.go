@@ -2,6 +2,7 @@ package mapreduce
 
 import (
 	"fmt"
+	"log"
 	"sync"
 )
 
@@ -47,11 +48,14 @@ func schedule(jobName string, mapFiles []string, nReduce int, phase jobPhase, re
 		}
 		go func(doTaskArgs DoTaskArgs, registerChan chan string) {
 			worker := <-registerChan
+			log.Println("worker assign:", worker)
 			for !call(worker, "Worker.DoTask", doTaskArgs, nil) {
+				worker = <-registerChan
+				log.Println("worker reassign:", worker)
 			}
 
 			// NOTICE! in order to avoid being blocked, we must use a goroutine to push the worker back to that channel
-			// 这块必须用一个go协程来写registerChan，不然就会卡住
+			// 这块必须用一个go协程来写registerChan，不然会卡住
 			go func() {
 				registerChan <- worker
 			}()

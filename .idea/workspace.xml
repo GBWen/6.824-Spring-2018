@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="" />
+    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapreduce/schedule.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapreduce/schedule.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +16,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapreduce/common_rpc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="630">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
               <folding>
                 <element signature="e#19#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,11 +46,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mapreduce/schedule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="448">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#19#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -84,6 +105,7 @@
       <find>dotask</find>
       <find>ch</find>
       <find>lockservice</find>
+      <find>failues</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
@@ -98,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/ii.go" />
         <option value="$PROJECT_DIR$/src/mapreduce/master.go" />
         <option value="$PROJECT_DIR$/src/main/wc.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/mapreduce/schedule.go" />
       </list>
     </option>
@@ -124,12 +147,6 @@
               <item name="6.824-Spring-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="6.824-Spring-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.824-Spring-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.824-Spring-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build wc.go">
+  <component name="RunManager" selected="Go Test.TestManyFailures in mapreduce">
     <configuration name="go build wc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="6.824" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -169,6 +186,28 @@
       <filePath value="$PROJECT_DIR$/src/main/wc.go" />
       <package value="6.824-Spring-2018" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestManyFailures in mapreduce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mapreduce" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="mapreduce" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestManyFailures$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOneFailure in mapreduce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mapreduce" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="mapreduce" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestOneFailure$" />
       <method v="2" />
     </configuration>
     <configuration name="TestParallelBasic in 6.824-Spring-2018/src/mapreduce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -193,50 +232,24 @@
       <pattern value="^TestSequentialSingle$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test 6.824-Spring-2018/src/kvraft" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="6.824" />
-      <working_directory value="$PROJECT_DIR$/src/kvraft" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="6.824-Spring-2018/src/kvraft" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test 6.824-Spring-2018/src/mapreduce" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="6.824" />
-      <working_directory value="$PROJECT_DIR$/src/mapreduce" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="6.824-Spring-2018/src/mapreduce" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build wc.go" />
       <item itemvalue="Go Test.TestParallelBasic in 6.824-Spring-2018/src/mapreduce" />
       <item itemvalue="Go Test.TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" />
-      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/kvraft" />
-      <item itemvalue="Go Test.go test 6.824-Spring-2018/src/mapreduce" />
+      <item itemvalue="Go Test.TestOneFailure in mapreduce" />
+      <item itemvalue="Go Test.TestManyFailures in mapreduce" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestManyFailures in mapreduce" />
+        <item itemvalue="Go Test.TestOneFailure in mapreduce" />
         <item itemvalue="Go Build.go build wc.go" />
         <item itemvalue="Go Test.TestParallelBasic in 6.824-Spring-2018/src/mapreduce" />
         <item itemvalue="Go Test.TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" />
-        <item itemvalue="Go Test.go test 6.824-Spring-2018/src/mapreduce" />
-        <item itemvalue="Go Test.go test 6.824-Spring-2018/src/kvraft" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 11m 24s.xml">
-      <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 12m 01s.xml">
-      <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 40m 15s.xml">
       <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -261,6 +274,12 @@
     <history-entry file="TestParallelBasic_in_6_824-Spring-2018_src_mapreduce - 2019.05.05 at 19h 17m 05s.xml">
       <configuration name="TestParallelBasic in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 39m 09s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 46m 12s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,12 +294,12 @@
     <frame x="731" y="23" width="1189" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1485623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14821273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22727273" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.226943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,13 +338,6 @@
     <entry file="file://$PROJECT_DIR$/src/mapreduce/824-mrinput-2.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/mr-testout.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.4/libexec/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -418,16 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_rpc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/lockd.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -452,10 +454,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_rpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapreduce/schedule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="448">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="e#19#44#0" expanded="true" />
           </folding>
