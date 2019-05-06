@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapreduce/schedule.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapreduce/schedule.go" afterDir="false" />
-    </list>
+    <list default="true" id="9574c1de-3c15-42de-b184-9895c0a2d9b4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
+            <state relative-caret-position="297">
+              <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -43,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mapreduce/schedule.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="401">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <element signature="e#19#44#0" expanded="true" />
               </folding>
@@ -106,6 +103,11 @@
       <find>ch</find>
       <find>lockservice</find>
       <find>failues</find>
+      <find>worker</find>
+      <find>wor</find>
+      <find>reass</find>
+      <find>assign</find>
+      <find>reassign</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.4/libexec" />
@@ -250,24 +252,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 40m 15s.xml">
-      <configuration name="go test 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 40m 48s.xml">
-      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 42m 34s.xml">
-      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 44m 09s.xml">
-      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 47m 15s.xml">
-      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.04 at 14h 51m 07s.xml">
-      <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSequentialSingle_in_6_824-Spring-2018_src_mapreduce - 2019.05.05 at 19h 11m 48s.xml">
       <configuration name="TestSequentialSingle in 6.824-Spring-2018/src/mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -279,6 +263,24 @@
     </history-entry>
     <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 46m 12s.xml">
       <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 47m 10s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 47m 28s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 47m 58s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 48m 23s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestOneFailure_in_mapreduce - 2019.05.06 at 13h 48m 47s.xml">
+      <configuration name="TestOneFailure in mapreduce" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestManyFailures_in_mapreduce - 2019.05.06 at 13h 49m 38s.xml">
+      <configuration name="TestManyFailures in mapreduce" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -299,8 +301,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.226943" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59170985" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39896372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
@@ -478,20 +480,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapreduce/schedule.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="401">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="e#19#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
         </state>
       </provider>
     </entry>
