@@ -11,3 +11,4 @@
 - [x] Lab1 Part III: Distributing MapReduce tasks (2019/5/6)
 - [x] Lab1 Part IV: Handling worker failures (2019/5/6)
 - [x] Lab1 Part V: Inverted index generation (2019/5/6)
+- []  LEC 2: [RPC and Threads](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt), [Crawler](https://pdos.csail.mit.edu/6.824/notes/crawler.go), [K/V](https://pdos.csail.mit.edu/6.824/notes/kv.go)
