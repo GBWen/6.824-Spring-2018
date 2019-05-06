@@ -10,3 +10,4 @@
 - [x] Lab1 Part II: Single-worker word count (2019/5/5)
 - [x] Lab1 Part III: Distributing MapReduce tasks (2019/5/6)
 - [x] Lab1 Part IV: Handling worker failures (2019/5/6)
+- [x] Lab1 Part V: Inverted index generation (2019/5/6)
