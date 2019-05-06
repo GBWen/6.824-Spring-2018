@@ -13,5 +13,5 @@
 - [x] Lab1 Part V: Inverted index generation (2019/5/6)
 - [] Preparation: Do [Online Go tutorial](https://tour.go-zh.org/list) [(FAQ)](https://pdos.csail.mit.edu/6.824/papers/tour-faq.txt)
 - []  LEC 2: [RPC and Threads](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt), [Crawler](https://pdos.csail.mit.edu/6.824/notes/crawler.go), [K/V](https://pdos.csail.mit.edu/6.824/notes/kv.go)
-- [] [LEC 3: GFS](https://pdos.csail.mit.edu/6.824/notes/l-gfs-short.txt)
 - [] [Preparation: Read GFS (2003)](http://blog.bizcloudsoft.com/wp-content/uploads/Google-File-System%E4%B8%AD%E6%96%87%E7%89%88_1.0.pdf)
+- [] [LEC 3: GFS](https://pdos.csail.mit.edu/6.824/notes/l-gfs-short.txt)
