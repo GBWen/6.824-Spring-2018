@@ -20,7 +20,7 @@
 - [] Read [Preparation: Read GFS (2003)](http://blog.bizcloudsoft.com/wp-content/uploads/Google-File-System%E4%B8%AD%E6%96%87%E7%89%88_1.0.pdf), [FAQ](https://pdos.csail.mit.edu/6.824/papers/gfs-faq.txt)
 - [] [LEC 3: GFS](https://pdos.csail.mit.edu/6.824/notes/l-gfs-short.txt)
 - [] [LEC 4: Primary-Backup Replication](https://pdos.csail.mit.edu/6.824/notes/l-vm-ft.txt)
-- [] Read [https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf), [FAQ](https://pdos.csail.mit.edu/6.824/papers/vm-ft-faq.txt)
+- [] Read [Fault-Tolerant Virtual Machines (2010)](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf), [FAQ](https://pdos.csail.mit.edu/6.824/papers/vm-ft-faq.txt)
 - [] [Lab 2: Raft](https://pdos.csail.mit.edu/6.824/labs/lab-raft.html)
 - [] Read [Raft (extended) (2014), to end of Section 5](https://pdos.csail.mit.edu/6.824/papers/raft-extended.pdf), [FAQ](https://pdos.csail.mit.edu/6.824/papers/raft-faq.txt)
 - [] [LEC 5: Fault Tolerance: Raft](https://pdos.csail.mit.edu/6.824/notes/l-raft.txt)
