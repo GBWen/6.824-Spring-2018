@@ -13,7 +13,7 @@
 - [x] Lab1 Part V: Inverted index generation (2019/5/6)
 - [x] [Online Go tutorial](https://go-tour-zh.appspot.com/list), [FAQ](https://pdos.csail.mit.edu/6.824/papers/tour-faq.txt) (2019/5/7)
 - [x] [Go concurrency patterns](https://talks.golang.org/2012/concurrency.slide) (2019/5/7)
-- [x] [入门goroutine并发设计模式以及goroutine可视化工具](https://segmentfault.com/a/1190000007111208) (2019/5/7)
+- [] [入门goroutine并发设计模式以及goroutine可视化工具](https://segmentfault.com/a/1190000007111208)
 - [] [Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
 - [] [Package rpc](https://golang.org/pkg/net/rpc/)
 - []  LEC 2: [RPC and Threads](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt), [Crawler](https://pdos.csail.mit.edu/6.824/notes/crawler.go), [K/V](https://pdos.csail.mit.edu/6.824/notes/kv.go)
