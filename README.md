@@ -16,6 +16,7 @@
 - [x] [golang语言并发与并行——goroutine和channel的详细理解](https://blog.csdn.net/liukuan73/article/details/78762074) (2019/5/8)
 - [] [Effective GO：并发](https://www.kancloud.cn/kancloud/effective/72213)
 - [] [入门goroutine并发设计模式以及goroutine可视化工具](https://segmentfault.com/a/1190000007111208)
+- [] [Go语言中的并发编程总结](https://jimmysong.io/posts/golang-concurrency-summary/)
 - [] [Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
 - [] [Package rpc](https://golang.org/pkg/net/rpc/)
 - []  LEC 2: [RPC and Threads](https://pdos.csail.mit.edu/6.824/notes/l-rpc.txt), [Crawler](https://pdos.csail.mit.edu/6.824/notes/crawler.go), [K/V](https://pdos.csail.mit.edu/6.824/notes/kv.go)
