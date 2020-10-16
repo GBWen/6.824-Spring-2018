@@ -78,7 +78,7 @@ func doMap(
 
 	keyValues := mapF(inFile, string(contents))
 
-	encoders := make([]*json.Encoder, nReduce);
+	encoders := make([]*json.Encoder, nReduce)
 	for i := 0; i < nReduce; i++ {
 		fileName := reduceName(jobName, mapTask, i)
 		filePtr, err := os.Create(fileName)
